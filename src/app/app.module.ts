@@ -7,6 +7,7 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ProductListComponent } from './product-list/product-list.component';
 import { ProductAlertComponent } from './product-alert/product-alert.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 
 
@@ -15,7 +16,8 @@ import { ProductAlertComponent } from './product-alert/product-alert.component';
     AppComponent,
     TopBarComponent,
     ProductListComponent,
-    ProductAlertComponent
+    ProductAlertComponent,
+    ProductDetailsComponent
   
   ],
   imports: [
