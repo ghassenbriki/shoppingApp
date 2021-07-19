@@ -1,0 +1,9 @@
+<h3>Cart</h3>
+
+<div class="cart-item" *ngFor="let item of items">
+  <span>{{ item.name }}</span>
+  <span>{{ item.price | currency }}</span>
+   <button (click)="remove(item)" class="btn"> <i class="fas fa-trash-alt"></i> </button>
+</div>
+
+
